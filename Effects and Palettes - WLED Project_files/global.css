@@ -1,0 +1,86 @@
+@font-face {
+font-family: 'San Francisco Display Regular';
+src: url('fonts/SFUIDisplay-Regular.eot');
+src: url('fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+url('fonts/SFUIDisplay-Regular.woff') format('woff'),
+url('fonts/SFUIDisplay-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/* Announcement Bar */
+
+.md-announce a,
+.md-announce a:focus, 
+.md-announce a:hover {
+  color: #fff;
+  font-size: .7rem;
+  padding: 0 .8rem;
+}
+
+.a{
+    background-color: #2c2f33;
+    color: white;
+    font-family: 'San Francisco Display Regular';
+}
+.tablez{
+    margin-top: 3%;
+    margin-left: 20%;
+    border-color:#858585;
+    border-style:solid;
+    border-width: 1px; 
+}
+.tablez th {
+  border-right:1px solid #858585;
+  border-bottom: 1px solid #858585;
+  padding: 12px 17px;
+}
+.tablez td {
+  border-bottom: 1px solid #858585;
+  border-right:1px solid #858585;
+  padding: 7px 17px;
+}
+.tablez tr:last-child td {
+  border-bottom: none;
+}
+.tablez td:last-child {
+  border-right: none;
+}
+.tablez th:last-child {
+  border-right: none;
+    
+}
+
+ .wrapper_footer{
+
+      height: 80px;
+      width: auto;
+      display: grid;
+      grid-template-areas: "copyright contacts";
+      grid-template-columns: 60% 40%;
+      margin-top: 10px;
+}
+.footer_p p{
+  font-size: 100%;
+}
+
+.footer_contacts{
+  margin-right: 20%;
+  color: rgb(141, 138, 138);
+  grid-area: contacts;
+}
+.footer_contacts2{
+  margin-top: 5%;
+  margin-right: 20%;
+  color: rgb(141, 138, 138);
+  grid-area: contacts;
+}
+
+.footer_copyright{
+  margin-top: 2%;
+  margin-left: 33%;
+  text-align: justify;
+  padding-top: 0%;
+  color: rgb(141, 138, 138);
+  grid-area: copyright;
+  font-size: 90%;
+}
